@@ -1,0 +1,25 @@
+﻿body {
+}
+
+
+.btnRegistro-container{
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.btnRegistro-container a {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 3px solid #FCA311;
+}
+
+.btnRegistro-container a:hover {
+    transform: scale(1.1, 1.1);
+    transition: ease 0.5s;
+}

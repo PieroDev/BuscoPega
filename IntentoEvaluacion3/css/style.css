@@ -1,0 +1,106 @@
+﻿body {
+    margin: 0;
+    padding: 0 10%;
+    background-color: #FFFFFF;
+}
+
+.master-body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: #1D2D44;
+}
+
+a:hover {
+   color:navy;
+}
+
+.nav-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+
+.logo-container {
+    margin: 0 15px;
+}
+
+.logo{
+    text-decoration:none;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.items-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    align-items: center;
+}
+.nav-item {
+    text-align: center;
+    width: 33%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.nav-item a:hover {
+   color: #FCA311;
+}
+
+.buscar {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.logo-busco {
+    color: #14213d;
+}
+
+.logo-pega {
+    color: #FCA311;
+}
+
+
+.content-body {
+    margin: 0 4%;
+    min-height: 1200px;
+}
+
+.registroLogin-container{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    margin: 0 20px;
+    font-size: 1.2em;
+    
+}
+
+.itemslink {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+
+.footer-container {
+    width: 100%;
+    height: 300px;
+    background-color: #14213D;
+}

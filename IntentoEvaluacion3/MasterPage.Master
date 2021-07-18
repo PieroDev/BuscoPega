@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="IntentoEvaluacion3.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>BuscoPega.cl</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 12%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="master-body">
+            <div class="header-container">
+                <div class="nav-container">
+                    <div class="logo-container">
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Index.aspx" CssClass="logo"><span class="logo-busco">Busco</span><span class="logo-pega">Pega</span></asp:HyperLink>
+                    </div>
+                    <div class="items-container">
+                        <div class="inicio nav-item">
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Inicio</asp:HyperLink>
+                        </div>
+                        <div class="buscar nav-item">
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Buscar.aspx">Buscar</asp:HyperLink>
+                        </div>
+                        <div class="perfil nav-item">
+                            <asp:HyperLink runat="server" NavigateUrl="~/Perfil.aspx">Mi perfil</asp:HyperLink>
+                        </div>
+                    </div>
+                </div>
+                <div class="registroLogin-container">
+                    <div class="registrar items">
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Registro.aspx" CssClass="itemslink">Registrarme</asp:HyperLink>
+                    </div>
+                    <div class="logIn items">
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/LogIn.aspx" CssClass="itemslink">LogIn</asp:HyperLink>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content-body">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+        </div>
+        <div class="footer-container">
+            <div>
+                <h1>Hola</h1>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
