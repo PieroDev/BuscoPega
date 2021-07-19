@@ -6,12 +6,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div class="id" style="display:none">
-        <asp:Label ID="lbl_prueba" runat="server" Text=""></asp:Label>
-        <asp:Label ID="empresaIdLabel" runat="server" Text='<%# Eval("empresaId") %>' />
-        <asp:Label ID="empleoIdLabel" runat="server" Text='<%# Eval("empleoId") %>' />
+        <asp:Label ID="lbl_empleoId" runat="server" Text=""></asp:Label>
+        <asp:Label ID="empresaIdLabel" runat="server" Text='<%# Eval("empresaId").ToString() %>' />
+        <asp:Label ID="empleoIdLabel" runat="server" Text='<%# Eval("empleoId").ToString() %>' />
     </div>
-
     <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1" DataKeyNames="empresaId,empleoId">
+
         <EmptyDataTemplate>
                 <table style="" runat="server">
                     <tr>
@@ -37,22 +37,24 @@
                             <asp:Label ID="contratoLabel" runat="server" Text='<%# Eval("contrato") %>' />
                         </div>
                         <div>
-                            $ <asp:Label ID="sueldoLabel" runat="server" Text='<%# Eval("sueldo") %>' />
+                            $ <asp:Label ID="sueldoLabel" runat="server" Text='<%# Convert.ToInt32(Eval("sueldo"))  %>' />
                         </div>
                     </div>
                     <p>
                         <asp:Label ID="descripcionLabel" runat="server" Text='<%# Eval("descripcion") %>' />
                     </p>
-                    <asp:Button ID="btn_postular" runat="server" Text="Postular" CssClass="btnPostular" />
+
+                    <asp:Button ID="btn_postular" runat="server" Text="Postular" CssClass="btnPostular" OnClick="btn_postular_Click" /> 
+                    
                 </div>
             </ItemTemplate>
         
     </asp:ListView>
-                    
+    <asp:Label ID="lbl_probando" runat="server" Text=""></asp:Label>     
 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MiPegaConnectionString %>" SelectCommand="SELECT Empresa.empresaId, Empresa.nombre, Empleo.empleoId, Empleo.nombre AS empleoNombre, Empleo.cargo, Empleo.contrato, Empleo.sueldo, Empleo.descripcion FROM Empresa INNER JOIN Empleo ON Empresa.empresaId = Empleo.empresaId WHERE (Empleo.empleoId = @empleoId)">
         <SelectParameters>
-            <asp:ControlParameter ControlID="lbl_prueba" Name="empleoId" PropertyName="Text" Type="Int32" />
+            <asp:ControlParameter ControlID="lbl_empleoId" Name="empleoId" PropertyName="Text" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
 

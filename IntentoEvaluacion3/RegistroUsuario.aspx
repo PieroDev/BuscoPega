@@ -28,7 +28,8 @@
             <p>Curriculum vitae (Link)</p>
             <asp:TextBox ID="txt_curriculumTrabajador" runat="server" placeholder="Recuerda subir tu cv a drive y mandarnos el link"></asp:TextBox>
             <br />
-            <asp:Button ID="btn_registrarme" runat="server" Text="Registrarme" CssClass="btnRegistrarme" />
+            <asp:Label ID="lbl_msjErrorForm" runat="server" Text=""></asp:Label>
+            <asp:Button ID="btn_registrarme" runat="server" Text="Registrarme" CssClass="btnRegistrarme" OnClick="btn_registrarme_Click" />
         </div>
         
     </div>

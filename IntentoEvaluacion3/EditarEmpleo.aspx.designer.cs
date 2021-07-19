@@ -11,98 +11,71 @@ namespace IntentoEvaluacion3
 {
 
 
-    public partial class RegistroEmpresa
+    public partial class EditarEmpleo
     {
 
         /// <summary>
-        /// txt_usernameEmpresa control.
+        /// lbl_empleoId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_usernameEmpresa;
+        protected global::System.Web.UI.WebControls.Label lbl_empleoId;
 
         /// <summary>
-        /// txt_claveEmpresa control.
+        /// txt_nombreEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_claveEmpresa;
+        protected global::System.Web.UI.WebControls.TextBox txt_nombreEmpleo;
 
         /// <summary>
-        /// TextBox1 control.
+        /// dd_cargo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.DropDownList dd_cargo;
 
         /// <summary>
-        /// lbl_msjError control.
+        /// dd_contrato control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_msjError;
+        protected global::System.Web.UI.WebControls.DropDownList dd_contrato;
 
         /// <summary>
-        /// txt_nombreEmpresa control.
+        /// txt_sueldoEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_nombreEmpresa;
+        protected global::System.Web.UI.WebControls.TextBox txt_sueldoEmpleo;
 
         /// <summary>
-        /// txt_rutEmpresa control.
+        /// txt_descripcionEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_rutEmpresa;
+        protected global::System.Web.UI.WebControls.TextBox txt_descripcionEmpleo;
 
         /// <summary>
-        /// txt_emailEmpresa control.
+        /// btn_publicarEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_emailEmpresa;
-
-        /// <summary>
-        /// txt_telefonoEmpresa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_telefonoEmpresa;
-
-        /// <summary>
-        /// txt_descripcionEmpresa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_descripcionEmpresa;
-
-        /// <summary>
-        /// btn_registrarme control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_registrarme;
+        protected global::System.Web.UI.WebControls.Button btn_publicarEmpleo;
 
         /// <summary>
         /// lbl_msjErrorForm control.

@@ -11,115 +11,106 @@ namespace IntentoEvaluacion3
 {
 
 
-    public partial class Site1
+    public partial class PerfilEmpresa
     {
 
         /// <summary>
-        /// head control.
+        /// lbl_trabajadorId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label lbl_trabajadorId;
 
         /// <summary>
-        /// form1 control.
+        /// lbl_mensajeNoSesion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label lbl_mensajeNoSesion;
 
         /// <summary>
-        /// HyperLink3 control.
+        /// perfil_container_handler control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl perfil_container_handler;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// perfil_container control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl perfil_container;
 
         /// <summary>
-        /// HyperLink2 control.
+        /// lbl_perfilNombre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
+        protected global::System.Web.UI.WebControls.Label lbl_perfilNombre;
 
         /// <summary>
-        /// link_registrar control.
+        /// lbl_perfilRut control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink link_registrar;
+        protected global::System.Web.UI.WebControls.Label lbl_perfilRut;
 
         /// <summary>
-        /// link_logIn control.
+        /// lbl_perfilTelefono control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink link_logIn;
+        protected global::System.Web.UI.WebControls.Label lbl_perfilTelefono;
 
         /// <summary>
-        /// agregarEmpleoDiv control.
+        /// lbl_perfilEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl agregarEmpleoDiv;
+        protected global::System.Web.UI.WebControls.Label lbl_perfilEmail;
 
         /// <summary>
-        /// btn_agregarEmpleo control.
+        /// lbl_perfilDescripcion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_agregarEmpleo;
+        protected global::System.Web.UI.WebControls.Label lbl_perfilDescripcion;
 
         /// <summary>
-        /// cerrarSesionDiv control.
+        /// ListView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl cerrarSesionDiv;
+        protected global::System.Web.UI.WebControls.ListView ListView1;
 
         /// <summary>
-        /// btn_cerrarSesion control.
+        /// SqlDataSource1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_cerrarSesion;
-
-        /// <summary>
-        /// ContentPlaceHolder1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
     }
 }

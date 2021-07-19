@@ -11,61 +11,43 @@ namespace IntentoEvaluacion3
 {
 
 
-    public partial class WebForm4
+    public partial class LogIn
     {
 
         /// <summary>
-        /// lbl_empleoId control.
+        /// txt_username control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_empleoId;
+        protected global::System.Web.UI.WebControls.TextBox txt_username;
 
         /// <summary>
-        /// empresaIdLabel control.
+        /// txt_pass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label empresaIdLabel;
+        protected global::System.Web.UI.WebControls.TextBox txt_pass;
 
         /// <summary>
-        /// empleoIdLabel control.
+        /// lbl_msjLogIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label empleoIdLabel;
+        protected global::System.Web.UI.WebControls.Label lbl_msjLogIn;
 
         /// <summary>
-        /// ListView1 control.
+        /// btn_logIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListView1;
-
-        /// <summary>
-        /// lbl_probando control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_probando;
-
-        /// <summary>
-        /// SqlDataSource1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.Button btn_logIn;
     }
 }

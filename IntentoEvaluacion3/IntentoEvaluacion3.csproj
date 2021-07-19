@@ -68,19 +68,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Buscar.aspx" />
+    <Content Include="css\style_perfilEmpresa.css" />
     <Content Include="css\style_empleo.css" />
     <Content Include="css\style_empresa.css" />
     <Content Include="css\style_index.css" />
     <Content Include="css\style_login.css" />
     <Content Include="css\style_perfil.css" />
+    <Content Include="css\style_publicarEmpleo.css" />
     <Content Include="css\style_registro.css" />
     <Content Include="css\style_registroEmpresa.css" />
     <Content Include="css\style_registroUsuario.css" />
+    <Content Include="EditarEmpleo.aspx" />
+    <Content Include="EliminarEmpleo.aspx" />
+    <Content Include="Error.aspx" />
     <Content Include="Global.asax" />
     <Content Include="css\style.css" />
+    <Content Include="img\construccion.jpg" />
     <Content Include="img\fotoPerfil.jpg" />
-    <Content Include="scripts\index.js" />
     <Content Include="LogIn.aspx" />
+    <Content Include="LogInEmpresa.aspx" />
+    <Content Include="Nosotros.aspx" />
+    <Content Include="PerfilEmpresa.aspx" />
+    <Content Include="PublicarEmpleo.aspx" />
+    <Content Include="scripts\index.js" />
+    <Content Include="LogInTrabajador.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="RegistroEmpresa.aspx" />
     <Content Include="RegistroUsuario.aspx" />
@@ -99,7 +110,28 @@
     <Compile Include="Buscar.aspx.designer.cs">
       <DependentUpon>Buscar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarEmpleo.aspx.cs">
+      <DependentUpon>EditarEmpleo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarEmpleo.aspx.designer.cs">
+      <DependentUpon>EditarEmpleo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarEmpleo.aspx.cs">
+      <DependentUpon>EliminarEmpleo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarEmpleo.aspx.designer.cs">
+      <DependentUpon>EliminarEmpleo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Empresa.cs" />
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -109,6 +141,34 @@
     </Compile>
     <Compile Include="LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInEmpresa.aspx.cs">
+      <DependentUpon>LogInEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInEmpresa.aspx.designer.cs">
+      <DependentUpon>LogInEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInTrabajador.aspx.cs">
+      <DependentUpon>LogInTrabajador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInTrabajador.aspx.designer.cs">
+      <DependentUpon>LogInTrabajador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nosotros.aspx.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nosotros.aspx.designer.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilEmpresa.aspx.cs">
+      <DependentUpon>PerfilEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfilEmpresa.aspx.designer.cs">
+      <DependentUpon>PerfilEmpresa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MasterPage.Master.cs">
@@ -145,6 +205,13 @@
     </Compile>
     <Compile Include="Empleo.aspx.designer.cs">
       <DependentUpon>Empleo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicarEmpleo.aspx.cs">
+      <DependentUpon>PublicarEmpleo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicarEmpleo.aspx.designer.cs">
+      <DependentUpon>PublicarEmpleo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>

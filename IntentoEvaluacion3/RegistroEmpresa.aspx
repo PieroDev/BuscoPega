@@ -26,7 +26,8 @@
             <p>Descripción empresa</p>
             <asp:TextBox ID="txt_descripcionEmpresa" runat="server" placeholder="Somos una empresa..." CssClass="descripcionEmpresa" Rows="20" TextMode="MultiLine" MaxLength="300"></asp:TextBox>
             <br/>
-            <asp:Button ID="btn_registrarme" runat="server" Text="Registrarme" CssClass="btnRegistrarme" />
+            <asp:Button ID="btn_registrarme" runat="server" Text="Registrarme" CssClass="btnRegistrarme" OnClick="btn_registrarme_Click" />
+            <asp:Label ID="lbl_msjErrorForm" runat="server" Text="Label"></asp:Label>
         </div>
     </div>
 </asp:Content>

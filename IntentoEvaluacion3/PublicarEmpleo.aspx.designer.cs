@@ -11,61 +11,70 @@ namespace IntentoEvaluacion3
 {
 
 
-    public partial class WebForm4
+    public partial class PublicarEmpleo
     {
 
         /// <summary>
-        /// lbl_empleoId control.
+        /// txt_nombreEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_empleoId;
+        protected global::System.Web.UI.WebControls.TextBox txt_nombreEmpleo;
 
         /// <summary>
-        /// empresaIdLabel control.
+        /// dd_cargo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label empresaIdLabel;
+        protected global::System.Web.UI.WebControls.DropDownList dd_cargo;
 
         /// <summary>
-        /// empleoIdLabel control.
+        /// dd_contrato control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label empleoIdLabel;
+        protected global::System.Web.UI.WebControls.DropDownList dd_contrato;
 
         /// <summary>
-        /// ListView1 control.
+        /// txt_sueldoEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListView1;
+        protected global::System.Web.UI.WebControls.TextBox txt_sueldoEmpleo;
 
         /// <summary>
-        /// lbl_probando control.
+        /// txt_descripcionEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_probando;
+        protected global::System.Web.UI.WebControls.TextBox txt_descripcionEmpleo;
 
         /// <summary>
-        /// SqlDataSource1 control.
+        /// btn_publicarEmpleo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.Button btn_publicarEmpleo;
+
+        /// <summary>
+        /// lbl_msjErrorForm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_msjErrorForm;
     }
 }
